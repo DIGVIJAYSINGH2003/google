@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgba(0, rgb(10, 12, 10), rgb(248, 248, 248), 0.6);
+    /* OPACITY PROPERTY CHANGES TRANSPARENCY OF BODY AND ITS CHILD ELEMENTS
+    BUT WITH HELP OF RGBA WE CAN ONLY CONTROL THE OPACITY OF BACKGROUND
+    here a denotes for alpha channel controls opacity.. */
+    
+}
+.top{
+    /*HERE TOP IS A CLASS */
+   
+   
+    
+    list-style:none;
+    margin-right: 3%;
+    margin-top: 2px;
+    height: 70px;
+}
+.gmail{
+    float:right;
+    padding:10px;
+    margin:5px;
+    font-size: 25px;
+   
+    
+}
+.images{
+    float:right;
+    padding:10px;
+    margin:5px;
+    font-size: 25px;
+   
+}
+.logo{
+    float:right;
+    padding:10px;
+    margin:5px;
+    font-size:25px;
+    
+}
+.photo{
+    float:right;
+    padding:0px;
+    margin:5px;
+    font-size:25px;
+}
+a{
+    text-decoration: none;
+}
+.google{
+    
+
+    
+    
+}
+#dj{
+    border-radius: 50px;
+}
+div.google{
+         margin: auto;
+         max-height: 400px;
+        min-height: 225px;
+        margin-top: 50px;
+          
+          
+          
+}
+a:link {
+    /* PSUEDO CLASSES FOR SPECIFIC STATE*/
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(2, 2, 2);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(199, 11, 11);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #logogoogle{
+      margin-left: 40%;
+      /* margin auto -- not coming in middle of parent div*/
+      margin-top: 7%;
+  }
+  .search{
+      max-height: 200px;
+      min-height: 100px;
+  }
+  input{
+     
+      width: 48%;
+      height: 35px;
+      margin: 0px;
+      border-radius: 17px;
+      background: url(https://img.icons8.com/ios-filled/2x/search-client.png),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC1cWoX5A3YHcUh3Zbeo2RYvCt7kglGCghAg&usqp=CAU);
+      background-repeat: no-repeat, no-repeat;
+      background-position-x: 4px , 416px;
+      padding-inline-start: 40px;
+      padding-inline-end: 6px;
+      
+background-size: 34px 34px;
+  }
+  .inputbar{
+      margin-left: 38%;
+      height: 140px;
+      
+  }
+  
+  
+  
+      
+
+  
